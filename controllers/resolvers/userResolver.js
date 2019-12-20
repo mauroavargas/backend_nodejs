@@ -1,6 +1,6 @@
 const { User } = require('../../modules');
 const jwt = require('jsonwebtoken');
-const KEY = 'Dark Side 666';
+const KEY = 'Dark666';
 
 module.exports = {
     getSingleUser: userid => {
