@@ -69,7 +69,7 @@ module.exports = {
       resolverDeleteThisUser: userid => {
         return new Promise((resolve, reject) => {
           User.findByIdAndUpdate(
-            id,
+            userid,
             { $set: { is_active: false } },
             { new: true },
             err => {
