@@ -23,6 +23,8 @@ module.exports = {
                 password
             } = userData;
 
+            console.log(userData)
+
             const newUser = User({
                 name,
                 last_name,
